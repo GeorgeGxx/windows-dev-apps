@@ -2,8 +2,9 @@
 
 `Install`
 
-  - Terminal `Windows Store`
   - Powershell 7.4.x `Windows Store`
+  - Terminal `Windows Store`
+    - Settings -> Startup -> Default profile -> PowerShell
   - Warp Terminal 
     - https://www.warp.dev
 

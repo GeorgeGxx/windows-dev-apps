@@ -29,7 +29,7 @@ https://chocolatey.org/install
 - <package_name>
   - awscli
 
-choco install -y awssamcli azure-cli Cmder dart-sdk flutter gh git glab Graphviz javadecompiler-gui opentofu python310 serverless sqlitestudio terraform transmission nvm vault Minikube k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops liberica8jre liberica8jdk liberica11jdk liberica17jdk maven gradle vagrant
+choco install -y awssamcli azure-cli Cmder dart-sdk flutter gh git glab Graphviz javadecompiler-gui opentofu python310 serverless sqlitestudio terraform transmission nvm vault Minikube k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops liberica8jdk liberica11jdk liberica17jdk maven gradle vagrant
 
 choco install -y openjdk --version=21.0.2
 
@@ -121,7 +121,6 @@ crc openshift-cli gcloudsdk
     C:\Program Files\OpenJDK\jdk-21.0.2\bin
     C:\Program Files\BellSoft\LibericaJDK-11\bin 
     C:\Program Files\BellSoft\LibericaJDK-8\bin
-    C:\Program Files\BellSoft\LibericaJRE-8\bin
     %MAVEN_HOME%\bin
     %GRADLE_HOME%\bin
     C:\tools\flutter\bin

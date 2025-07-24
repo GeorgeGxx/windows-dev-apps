@@ -41,10 +41,6 @@ choco upgrade -y 7zip awscli awssamcli azure-cli chocolatey Cmder gh git glab gr
 
 crc openshift-cli gcloudsdk
 
-## Programming Languages
-
-  - Python 3.10.x `Windows Store`
-
 ## Pip
 
 ### Checkov para seguridad en IaC

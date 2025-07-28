@@ -35,7 +35,7 @@ choco install -y openjdk --version=21.0.2
 
 choco install -y kotlinc --version=1.5.20
 
-choco install -y golang --version=1.23.6
+choco install -y go --version=1.24.5
 
 choco upgrade -y 7zip awscli awssamcli azure-cli chocolatey Cmder gh git glab graphviz javadecompiler-gui k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops Minikube opentofu serverless sqlitestudio terraform transmission vagrant vault
 

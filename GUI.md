@@ -46,7 +46,7 @@
     - https://code.visualstudio.com
   - Visual Studio `Community Edition` + Desktop Development with C++
     - https://visualstudio.microsoft.com/vs/community/
-  - Sts4 + lombok.jar + 
+  - Spring Tool Suite 4 + lombok.jar 
     - https://spring.io/tools 
     - https://projectlombok.org/download
       - `Instalacion Lombok` (Ejecutar en PowerShell como Administrador)
@@ -54,10 +54,13 @@
         - java -jar lombok.jar
   - IntelliJ IDEA `Community` 
     - https://www.jetbrains.com/idea/download/
+    - Setting -> Tools -> Terminal -> Shell path -> pwsh
   - Pycharm `Community`
     - https://www.jetbrains.com/pycharm/download/
+    - Setting -> Tools -> Terminal -> Shell path -> pwsh
   - Android Studio 
     - https://developer.android.com/studio
+    - Setting -> Tools -> Terminal -> Shell path -> pwsh
   - Postman 
     - https://www.postman.com
   - Dbeaver `Community`

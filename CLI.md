@@ -2,8 +2,9 @@
 
 `Install`
 
-  - Terminal `Windows Store`
   - Powershell 7.4.x `Windows Store`
+  - Terminal `Windows Store`
+    - Settings -> Startup -> Default profile -> PowerShell
   - Warp Terminal 
     - https://www.warp.dev
 
@@ -28,21 +29,17 @@ https://chocolatey.org/install
 - <package_name>
   - awscli
 
-choco install -y awssamcli azure-cli Cmder dart-sdk flutter gh git glab Graphviz javadecompiler-gui opentofu python310 serverless sqlitestudio terraform transmission nvm vault Minikube k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops liberica8jre liberica8jdk liberica11jdk liberica17jdk maven gradle vagrant
+choco install -y awssamcli azure-cli Cmder dart-sdk flutter gh git glab Graphviz javadecompiler-gui opentofu python310 serverless sqlitestudio terraform transmission nvm vault Minikube k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops liberica8jdk liberica11jdk liberica17jdk maven gradle vagrant
 
 choco install -y openjdk --version=21.0.2
 
 choco install -y kotlinc --version=1.5.20
 
-choco install -y golang --version=1.23.6
+choco install -y go --version=1.24.5
 
 choco upgrade -y 7zip awscli awssamcli azure-cli chocolatey Cmder gh git glab graphviz javadecompiler-gui k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops Minikube opentofu serverless sqlitestudio terraform transmission vagrant vault
 
 crc openshift-cli gcloudsdk
-
-## Programming Languages
-
-  - Python 3.10.x `Windows Store`
 
 ## Pip
 
@@ -120,7 +117,6 @@ crc openshift-cli gcloudsdk
     C:\Program Files\OpenJDK\jdk-21.0.2\bin
     C:\Program Files\BellSoft\LibericaJDK-11\bin 
     C:\Program Files\BellSoft\LibericaJDK-8\bin
-    C:\Program Files\BellSoft\LibericaJRE-8\bin
     %MAVEN_HOME%\bin
     %GRADLE_HOME%\bin
     C:\tools\flutter\bin

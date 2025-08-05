@@ -4,7 +4,7 @@
 
 Step 1: https://profile.broadcom.com/web/registration
 
-Step 2: https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro
+Step 2: https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true
 
 ![](./img/3.png)
 
@@ -15,3 +15,9 @@ Step 2: https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware
 ![](./img/6.png)
 
 ![](./img/VMware-License.png)
+
+`CLI` -> [Pt. 1/2](CLI.md)
+
+`GUI` <- [Pt. 2/2](GUI.md)
+
+`Atrás` <- [README](README.md)

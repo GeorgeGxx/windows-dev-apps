@@ -20,8 +20,6 @@
 ## Collab
   
   - WhatsApp `Windows Store`
-  - Telegram `Windows Store`
-  - Discord `Windows Store`
   - Microsoft Teams 
     - https://www.microsoft.com/en-us/microsoft-teams/download-app
   - Zoom 
@@ -46,7 +44,7 @@
     - https://code.visualstudio.com
   - Visual Studio `Community Edition` + Desktop Development with C++
     - https://visualstudio.microsoft.com/vs/community/
-  - Sts4 + lombok.jar + 
+  - Spring Tool Suite 4 + lombok.jar 
     - https://spring.io/tools 
     - https://projectlombok.org/download
       - `Instalacion Lombok` (Ejecutar en PowerShell como Administrador)
@@ -54,6 +52,7 @@
         - java -jar lombok.jar
   - IntelliJ IDEA `Community` 
     - https://www.jetbrains.com/idea/download/
+    - Setting -> Tools -> Terminal -> Shell path -> pwsh
   - Pycharm `Community`
     - https://www.jetbrains.com/pycharm/download/
   - Android Studio 
@@ -65,8 +64,7 @@
 
 ## DataBase
 
-  - SQL Server Community `Developer Edition` + SSMS
-    - https://www.microsoft.com/en-us/sql-server/sql-server-downloads 
+  - SSMS
     - https://aka.ms/ssmsfullsetup
   - MongoDB Community 6.x.x + Compass + Mongosh 
     - https://www.mongodb.com/try/download/community 
@@ -82,14 +80,6 @@
     - https://www.docker.com/products/docker-desktop 
     - https://hub.docker.com
     - https://docs.docker.com/scout
-  
-## Virtualization
-
-  - Virtualbox 7 + Extension Pack 
-    - https://www.virtualbox.org
-  - VMware Workstation 17.6.3 + Vagrant VMware Utility
-    - [VMware with Personal License](vmw-notes.md)
-    - https://developer.hashicorp.com/vagrant/docs/providers/vmware/vagrant-vmware-utility
 
 ## Optional
 
@@ -98,10 +88,6 @@
   - NVIDIA App + Broadcast App
     - https://www.nvidia.com/en-us/software/nvidia-app/
     - https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/
-  - VLC
-    - https://www.videolan.org/vlc/download-windows.html
-  - Oracle SQL Developer
-    - https://www.oracle.com/database/sqldeveloper/technologies/download/
 
 `CLI` -> [Pt. 1/2](CLI.md)
 

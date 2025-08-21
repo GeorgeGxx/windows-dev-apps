@@ -2,8 +2,9 @@
 
 `Install`
 
-  - Terminal `Windows Store`
   - Powershell 7.4.x `Windows Store`
+  - Terminal `Windows Store`
+    - Settings -> Startup -> Default profile -> PowerShell
   - Warp Terminal 
     - https://www.warp.dev
 
@@ -28,21 +29,17 @@ https://chocolatey.org/install
 - <package_name>
   - awscli
 
-choco install -y awssamcli azure-cli Cmder dart-sdk flutter gh git glab Graphviz javadecompiler-gui opentofu python310 serverless sqlitestudio terraform transmission nvm vault Minikube k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops liberica8jre liberica8jdk liberica11jdk liberica17jdk maven gradle vagrant
+choco install -y awssamcli azure-cli Cmder dart-sdk flutter gh git glab Graphviz javadecompiler-gui opentofu python310 serverless sqlitestudio terraform transmission nvm vault Minikube k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops liberica8jdk liberica11jdk liberica17jdk maven gradle
 
 choco install -y openjdk --version=21.0.2
 
 choco install -y kotlinc --version=1.5.20
 
-choco install -y golang --version=1.23.6
+choco install -y go --version=1.24.5
 
-choco upgrade -y 7zip awscli awssamcli azure-cli chocolatey Cmder gh git glab graphviz javadecompiler-gui k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops Minikube opentofu serverless sqlitestudio terraform transmission vagrant vault
+choco upgrade -y 7zip awscli awssamcli azure-cli chocolatey Cmder gh git glab graphviz javadecompiler-gui k9s kubernetes-cli kubernetes-helm kubernetes-helmfile kubernetes-kops Minikube opentofu serverless sqlitestudio terraform transmission vault
 
 crc openshift-cli gcloudsdk
-
-## Programming Languages
-
-  - Python 3.10.x `Windows Store`
 
 ## Pip
 
@@ -68,41 +65,14 @@ crc openshift-cli gcloudsdk
 
   - SDKMAN
     - https://sdkman.io/install
-    - sdk install java 17.0.9-graalce
+      - sdk list java
+      - sdk install java 17.0.9-graalce 21.0.2-graalce 21.0.8-librca
+      - sdk uninstall java < Identifier >
+      - sdk use java 21.0.8-librca
+      - sdk default java < Identifier >
+      - sdk current java
   - Source-to-image (S2I)
     - https://computingforgeeks.com/install-source-to-image-toolkit-on-linux/
-
-## Vagrant
-
-`Use example`
-
-    vagrant plugin list    
-    vagrant plugin install vagrant-vmware-desktop
-    vagrant plugin update vagrant-vmware-desktop
-
-    vagrant init bento/ubuntu-20.04
-
-    vagrant up --provider=virtualbox db01 db02 // Multiple VMs
-    vagrant up --provider=vmware_desktop
-    vagrant up db01
-    
-    vagrant ssh db01
-
-    vagrant suspend
-    vagrant halt db01
-    vagrant reload db01
-
-    vagrant status
-    vagrant global-status
-    vagrant global-status --prune
-
-    vagrant destroy db01
-
-    vagrant box list
-    vagrant box remove bento/ubuntu-20.04
-    vagrant box remove --all bento/ubuntu-20.04
-    vagrant box remove --provider=virtualbox bento/ubuntu-20.04
-    vagrant box remove --provider=vmware_desktop bento/ubuntu-20.04
 
 ## Variables
 
@@ -120,7 +90,6 @@ crc openshift-cli gcloudsdk
     C:\Program Files\OpenJDK\jdk-21.0.2\bin
     C:\Program Files\BellSoft\LibericaJDK-11\bin 
     C:\Program Files\BellSoft\LibericaJDK-8\bin
-    C:\Program Files\BellSoft\LibericaJRE-8\bin
     %MAVEN_HOME%\bin
     %GRADLE_HOME%\bin
     C:\tools\flutter\bin
